@@ -1,5 +1,0 @@
-wheel>=0
-setuptools>=0
-feedparser>=6.0.8
-pywikibot>=6.6.1
-wikitextparser>=0
