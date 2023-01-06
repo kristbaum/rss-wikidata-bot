@@ -1,7 +1,6 @@
 
 def get_feed_url(item):
-    # return "https://www.ndr.de/nachrichten/info/podcast4684.xml"
-    return "https://neuezwanziger.de/feed/mp3/"
+    return "https://www.geschichte.fm/feed/mp3/"
     feed_url = item["claims"]["P1019"][0].get_target()
 
     print("Feed url" + feed_url)

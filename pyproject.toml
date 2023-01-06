@@ -13,6 +13,9 @@ pywikibot = "^7.7.1"
 wikitextparser = "^0.51.1"
 
 
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
